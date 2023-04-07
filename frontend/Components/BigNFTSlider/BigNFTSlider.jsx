@@ -196,7 +196,7 @@ const BigNFTSilder = () => {
         </div>
 
         <div className={Style.bigNFTSlider_box_right}>
-          <div className={Style.bigNFTSlider_box_right_box}>
+          {/* <div className={Style.bigNFTSlider_box_right_box}> */}
             <Image
               src={sliderData[idNumber].nftImage}
               alt="NFT IMAGE"
@@ -207,7 +207,7 @@ const BigNFTSilder = () => {
               <AiFillHeart />
               <span>{sliderData[idNumber].like}</span>
             </div>
-          </div>
+          {/* </diKKKv> */}
         </div>
       </div>
     </div>

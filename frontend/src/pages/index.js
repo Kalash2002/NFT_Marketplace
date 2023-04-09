@@ -11,7 +11,9 @@ import {
   Filter,
   NFTCard,
   Collection,
-  FollowerTab,AudioLive
+  FollowerTab,
+  AudioLive,
+  Slider,
 } from "../../Components/componentIndex";
 
 const Home = () => {
@@ -24,19 +26,24 @@ const Home = () => {
         heading="Latest Audio Collections"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <AudioLive/>
+      <AudioLive />
       <Title
         heading="Filter By Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <FollowerTab/>
-      <Collection/>
+      <FollowerTab />
+      <Title
+        heading="Explore NFT Videos"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
+      <Slider/>
+      <Collection />
       <Title
         heading="Featured NFT's"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <Filter />
-      <NFTCard/>
+      <NFTCard />
       <Title
         heading="Audio Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."

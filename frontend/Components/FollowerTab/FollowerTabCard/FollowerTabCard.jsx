@@ -32,7 +32,7 @@ const FollowerTabCard = ({ i, el }) => {
             alt="profile braground"
             width={360}
             height={300}
-            // objectFit="cover"
+            objectFit="cover"
           />
         </div>
 
@@ -42,7 +42,7 @@ const FollowerTabCard = ({ i, el }) => {
             alt="profile picture"
             width={50}
             height={50}
-            src={images.nft_1}
+            src={el.user || images[`user${i + 1}`]}
           />
         </div>
 
@@ -50,7 +50,6 @@ const FollowerTabCard = ({ i, el }) => {
           <div className={Style.FollowerTabCard_box_info_name}>
             <h4>
               {/* {el.seller.slice(0, 9)} */}
-              Kalash
               {""}{" "}
               <span>
                 <MdVerified />

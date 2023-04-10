@@ -12,7 +12,7 @@ const DaysComponents = ({ el, i }) => {
       <div className={Style.daysComponent_box}>
         <div className={Style.daysComponent_box_img}>
           <Image
-            src={images.creatorbackground2}
+            src={el.background}
             className={Style.daysComponent_box_img_img}
             alt="profile background"
             width={610}
@@ -53,7 +53,7 @@ const DaysComponents = ({ el, i }) => {
           <div className={Style.daysComponent_box_title_info}>
             <div className={Style.daysComponent_box_title_info_profile}>
               <Image
-                src={images.creatorbackground2}
+                src={el.user}
                 alt="profile"
                 width={30}
                 height={30}

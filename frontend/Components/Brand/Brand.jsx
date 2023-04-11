@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 //INTERNAL IMPORT
 import Style from "./Brand.module.css";
 import images from "../../img";
-import { Button } from "../../components/componentIndex.js";
+import { Button } from "../componentIndex";
 
 const Brand = () => {
   const router = useRouter();

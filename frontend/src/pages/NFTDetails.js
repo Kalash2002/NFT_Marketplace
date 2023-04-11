@@ -1,0 +1,15 @@
+import React from 'react'
+
+import { Button,Category,Brand } from '../../Components/componentIndex'
+import NFTDetailsPage from '../../NFTDetailsPage/NFTDetailsPage'
+const NFTDetails = () => {
+  return (
+    <div>
+     <NFTDetailsPage/>
+     <Category/>
+     <Brand/>
+    </div>
+  )
+}
+
+export default NFTDetails
